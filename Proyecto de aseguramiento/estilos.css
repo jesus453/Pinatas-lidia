@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background:#d9b2bd;
+}
+
+.navbar-brand{
+    font-weight:bold;
+    font-size:28px;
+}
+
+/* HERO */
+
+.hero{
+    height:100vh;
+    background-image:url("imagenes/pinata-estrella.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-contenido{
+    background:rgba(255,255,255,.8);
+    padding:40px;
+    border-radius:20px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+/* TARJETAS */
+
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    height:300px;
+    object-fit:cover;
+}
+
+/* FOOTER */
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
